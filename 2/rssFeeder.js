@@ -7,55 +7,111 @@ var request = require('request');
 var fs = require('fs');
 var FeedParser = require('feedparser');
 
-/*
-function makePromise(func, text) {
-    return new Promise(function(resolve, reject) {
-        console.log(">>> makePromise");
-        func.then(() => {
-            console.log(text);
-            resolve(text);
-        })
-        .catch(err => {
-            console.error(err);
-            reject(text+" rejected");
-        });
-        console.log("<<< makePromise");
-    });
-}
-*/
-
 class RssFeeder {
-//    constructor(feed) {
-//        this.feed = feed;
-//    }
 
-    get(feed, outfile) {
-        console.log(">>> get; feed :"+feed+":");
-        request.get(feed)
-        .on('error', function(error) {
-            console.log(">>> on error");
-            // handle any request errors
-            console.log(err)
-            console.log("<<< on error");
-        })
-        .on('response', function(res) {
-            console.log(">>> on response");
-            console.log(res.statusCode);
-            console.log(res.headers['content-type']);
-//            var stream = this; // `this` is `req`, which is a stream
-            if (res.statusCode !== 200) {
-                this.emit('error', new Error('Bad status code'));
-            }
-            console.log("<<< on response");
-        })
-        .pipe(fs.createWriteStream(outfile))
-        .on('finish', function() {
-            console.log('Done downloading, encrypting, and saving!');
-            return 'abcd';
+    promisedGet(feed, outfile) {
+        return new Promise(function(resolve, reject) {
+            console.log(">>> promisedGet; feed :" + feed + ":");
+            request.get(feed)
+                .on('error', function(error) {
+                    console.err("ERROR in promisedGet; error " + err);
+                    reject("rejected; error "+err);
+                })
+                .on('response', function(res) {
+                    console.log(">>> on response");
+                    console.log(res.statusCode);
+                    console.log(res.headers['content-type']);
+                    if (res.statusCode !== 200) {
+                        this.emit('error', new Error('Bad status code'));
+                    }
+                    console.log("<<< on response");
+                })
+                .pipe(fs.createWriteStream(outfile))
+                .on('finish', function() {
+                    console.log('Done downloading and saving!');
+                    resolve();
+                });
+            console.log("<<< promisedGet; feed :" + feed + ":");
         });
-        console.log("<<< get; feed :"+feed+":");
     }
 
+    get(feed, outfile) {
+        console.log(">>> get; feed :" + feed + ":");
+        request.get(feed)
+            .on('error', function(error) {
+                console.err("ERROR in get; error " + err);
+            })
+            .on('response', function(res) {
+                console.log(">>> on response");
+                console.log(res.statusCode);
+                console.log(res.headers['content-type']);
+                if (res.statusCode !== 200) {
+                    this.emit('error', new Error('Bad status code'));
+                }
+                console.log("<<< on response");
+            })
+            .pipe(fs.createWriteStream(outfile))
+            .on('finish', function() {
+                console.log('Done downloading and saving!');
+            });
+        console.log("<<< get; feed :" + feed + ":");
+    }
+
+    promisedJson(xmlFile) {
+        const json = {
+            items: []
+        }
+        return new Promise(function(resolve, reject) {
+            console.log(">>> promisedJson; xmlFile :" + xmlFile + ":");
+            fs.createReadStream(xmlFile)
+                .on('error', function(error) {
+                    console.error(error);
+                    reject("rejected createReadStream");
+                })
+                .pipe(new FeedParser())
+                .on('error', function(error) {
+                    console.error(error);
+                    reject("rejected pipe");
+                })
+                .on('meta', function(meta) {
+                    json.meta = meta;
+                })
+                .on('readable', function() {
+                    let stream = this, item;
+                    while (item = stream.read()) {
+                        json.items.push(item);
+                    }
+                })
+                .on('finish', function() {
+                    debugger;
+                    console.log('Done promisedJson');
+                    resolve(json);
+                });
+            console.log("<<< promisedJson; xmlFile :" + xmlFile + ":");
+        });
+    }
+
+    makePromise(func, text) {
+        return new Promise(function(resolve, reject) {
+            console.log(">>> makePromise");
+            func.then(() => {
+                console.log(text);
+                resolve(text);
+            })
+            .catch(err => {
+                console.error(err);
+                reject(text + " rejected");
+            });
+            console.log("<<< makePromise");
+        });
+    }
+
+}
+
+module.exports = RssFeeder;
+
+
+/*
     parseXml(xmlFile) {
         fs.createReadStream(xmlFile)
         .on('error', function (error) {
@@ -79,7 +135,9 @@ class RssFeeder {
             console.log('Done parseXml!');
         });
     }
+*/
 
+/*
     parse(feed) {
         console.log(">>> parse; feed :"+feed+":");
         var options = {};
@@ -111,13 +169,7 @@ class RssFeeder {
 
 //        console.log("<<< parse; feed :"+feed+":");
     }
-
-    dummy() {
-        console.log("dummy");
-    }
-}
-
-module.exports = RssFeeder;
+*/
 
 
 /*
