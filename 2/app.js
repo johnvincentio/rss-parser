@@ -16,9 +16,15 @@ var RssFeeder = require('./rssFeeder');
 
 let rssFeed1 = "http://rss.cnn.com/rss/edition.rss";
 let outfile1 = __dirname+"/feeds/1.xml";
+let jsonfile1 = __dirname+"/feeds/1.json";
 
 let rssFeed2 = "http://feeds.bbci.co.uk/news/rss.xml";
 let outfile2 = __dirname+"/feeds/2.xml";
+let jsonfile2 = __dirname+"/feeds/2.json";
+
+let rssFeed3 = "http://feeds.bbci.co.uk/newsbad/rss.xml";
+let outfile3 = __dirname+"/feeds/3.xml";
+let jsonfile3 = __dirname+"/feeds/3.json";
 
 /*
 1. get Subscriptions from mongo
@@ -48,10 +54,25 @@ function test1a() {
     });
 }
 
-//function test2() {
-//    var rssFeeder = new RssFeeder();
-//    rssFeeder.parseXml(outfile);
-//}
+function test1b() {
+    var rssFeeder = new RssFeeder();
+    rssFeeder.promisedGet(rssFeed3, outfile3)
+    .then(() => {
+        console.log("test1b; done promisedGet");
+    })
+    .catch(function(err) {
+        console.log('Catch: ', err);
+    });
+}
+
+function test3() {
+    var rssFeeder = new RssFeeder();
+    rssFeeder.parseXml(outfile1, callback);
+}
+
+function callback(json) {
+    console.log("json "+JSON.stringify(json));
+}
 
 function test2() {
     var rssFeeder = new RssFeeder();
@@ -68,14 +89,14 @@ function test2() {
 
 function test2a() {
     var rssFeeder = new RssFeeder();
-    rssFeeder.promisedJson(outfile1)
+    rssFeeder.promisedJson(outfile1, jsonfile1)
     .then(() => {
-        rssFeeder.promisedJson(outfile2);
+        rssFeeder.promisedJson(outfile2, jsonfile2);
     })
     .catch(function(err) {
         console.log('Catch: ', err);
     });
 }
 
-test2();
+test2a();
 
