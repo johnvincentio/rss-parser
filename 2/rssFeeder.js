@@ -7,6 +7,23 @@ var request = require('request');
 var fs = require('fs');
 var FeedParser = require('feedparser');
 
+/*
+function makePromise(func, text) {
+    return new Promise(function(resolve, reject) {
+        console.log(">>> makePromise");
+        func.then(() => {
+            console.log(text);
+            resolve(text);
+        })
+        .catch(err => {
+            console.error(err);
+            reject(text+" rejected");
+        });
+        console.log("<<< makePromise");
+    });
+}
+*/
+
 class RssFeeder {
 //    constructor(feed) {
 //        this.feed = feed;
@@ -14,9 +31,6 @@ class RssFeeder {
 
     get(feed, outfile) {
         console.log(">>> get; feed :"+feed+":");
-        var options = {};
-        var feedparser = new FeedParser([options]);
-
         request.get(feed)
         .on('error', function(error) {
             console.log(">>> on error");
@@ -224,4 +238,33 @@ fs.createReadStream(feed)
       console.log('Got article: %s', item.title || item.description);
     }
   });
+*/
+
+/*
+    get(feed, outfile) {
+        console.log(">>> get; feed :"+feed+":");
+        request.get(feed)
+        .on('error', function(error) {
+            console.log(">>> on error");
+            // handle any request errors
+            console.log(err)
+            console.log("<<< on error");
+        })
+        .on('response', function(res) {
+            console.log(">>> on response");
+            console.log(res.statusCode);
+            console.log(res.headers['content-type']);
+//            var stream = this; // `this` is `req`, which is a stream
+            if (res.statusCode !== 200) {
+                this.emit('error', new Error('Bad status code'));
+            }
+            console.log("<<< on response");
+        })
+        .pipe(fs.createWriteStream(outfile))
+        .on('finish', function() {
+            console.log('Done downloading, encrypting, and saving!');
+            return 'abcd';
+        });
+        console.log("<<< get; feed :"+feed+":");
+    }
 */
