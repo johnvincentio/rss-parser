@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha ./test",
+    "devtool-app": "devtool app.js",
+    "devtool-test": "devtool ./node_modules/mocha/bin/_mocha ./test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rss-parser": "^2.7.0"
+  }
+}
