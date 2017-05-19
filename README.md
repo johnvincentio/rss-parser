@@ -1,4 +1,11 @@
 
+Data:
+data/seed-data.json
+
+mongoimport --db news-reader --collection subscriptions --drop --file data/seed-data.json
+
+
+
 
 https://www.npmjs.com/package/rss-parser
 
