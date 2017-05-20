@@ -16,28 +16,11 @@ npm install mongoose --save
 let RssFeeder = require('./rssFeeder');
 
 var mongoose = require("mongoose");
+
+const {Subscription} = require('./model');
+
 mongoose.connect("mongodb://localhost:27017/news-reader");
 mongoose.Promise = global.Promise;
-
-var subscriptionsSchema = mongoose.Schema({
-    url: String,
-    file_id: Number,
-    channel: String,
-    items: String
-});
-
-var Subscription = mongoose.model('Subscription', subscriptionsSchema);
-
-let subscriptions = [
-    {
-        url: "http://rss.cnn.com/rss/edition.rss",
-        file_id: "1"
-    },
-    {
-        url: "http://feeds.bbci.co.uk/news/rss.xml",
-        file_id: "2"
-    }
-];
 
 var db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error"));
@@ -48,8 +31,6 @@ db.once("open", function() {
 db.on("disconnected", function() {
     console.log("disconnected");
 });
-
-
 
 /*
 1. get Subscriptions from mongo
@@ -84,9 +65,9 @@ function do2() {
                     .exec()
                     .then((abc)=> {
 //                        console.log('**** Record updated '+abc);
-                        if (idx === array.length - 1) {
-                            db.close();
-                        }
+//                        if (idx === array.length - 1) {
+//                            db.close();
+//                        }
                     })
                     .catch(err => {
                         console.error('**** Update Error; Reason '+err);
@@ -115,6 +96,18 @@ function do2() {
 2. get xml feed, save as file
 2a. parse Xml file to json, save as file.
 */
+
+
+let subscriptions = [
+    {
+        url: "http://rss.cnn.com/rss/edition.rss",
+        file_id: "1"
+    },
+    {
+        url: "http://feeds.bbci.co.uk/news/rss.xml",
+        file_id: "2"
+    }
+];
 
 function do1() {
     let rssFeeder = new RssFeeder();

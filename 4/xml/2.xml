@@ -11,7 +11,7 @@
             <link>http://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 20 May 2017 14:50:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 May 2017 15:15:31 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
@@ -240,6 +240,14 @@
             <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/5B60/production/_96129332_mediaitem96129211.jpg"/>
         </item>
         <item>
+            <title><![CDATA[WSL 1 Spring Series: Arsenal Ladies beat Birmingham City Ladies to go second]]></title>
+            <description><![CDATA[Louise Quinn scores twice as Arsenal beat Birmingham City 4-2 to move up to second in the WSL 1 Spring Series table.]]></description>
+            <link>http://www.bbc.co.uk/sport/football/39987022</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39987022</guid>
+            <pubDate>Sat, 20 May 2017 15:07:23 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/D6F9/production/_96133055_louise_quinn_rex.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Gervonta Davis v Liam Walsh: Floyd Mayweather fighter's tough rise from Baltimore beginnings]]></title>
             <description><![CDATA[How one of the world's youngest world champions made it from bleak beginnings to being a poster boy at Mayweather Promotions.]]></description>
             <link>http://www.bbc.co.uk/sport/boxing/39965423</link>
@@ -248,20 +256,12 @@
             <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/F8CA/production/_96109636_1indexreuters.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Arsenal need a billionaire like Alisher Usmanov to move forward, says Ian Wright]]></title>
-            <description><![CDATA[Arsenal need the spending power of a billionaire in order to move to the next level, says Gunners legend Ian Wright.]]></description>
-            <link>http://www.bbc.co.uk/sport/football/39981954</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39981954</guid>
-            <pubDate>Fri, 19 May 2017 20:56:23 GMT</pubDate>
-            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/9454/production/_96127973_arsenalfc.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Election 2017: Will the Liberal Democrats win over young voters?]]></title>
-            <description><![CDATA[Can the party entice young voters back after the controversial coalition with the Conservatives and U-turn on tuition fees?]]></description>
-            <link>http://www.bbc.co.uk/news/election-2017-39952676</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39952676</guid>
-            <pubDate>Sat, 20 May 2017 01:59:03 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/EF26/production/_96122216_jess.jpg"/>
+            <title><![CDATA[Labour working on a 'state-backed mortgage scheme']]></title>
+            <description><![CDATA[The party's leader Jeremy Corbyn tells Radio 1 Newsbeat the proposals will help young people buy a home, if they're elected to power.]]></description>
+            <link>http://www.bbc.co.uk/newsbeat/articles/39987106</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/newsbeat/articles/39987106</guid>
+            <pubDate>Sat, 20 May 2017 14:44:26 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/5B1B/production/_96132332_corbynpa.jpg"/>
         </item>
         <item>
             <title><![CDATA[Election Lexicon: Robin Hood tax, cockroaches and Heineken politician]]></title>
@@ -296,6 +296,14 @@
             <media:thumbnail width="1024" height="575" url="http://c.files.bbci.co.uk/14C50/production/_95727058_p050n9n6.jpg"/>
         </item>
         <item>
+            <title><![CDATA[Election 2017: Will the Liberal Democrats win over young voters?]]></title>
+            <description><![CDATA[Can the party entice young voters back after the controversial coalition with the Conservatives and U-turn on tuition fees?]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39952676</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39952676</guid>
+            <pubDate>Sat, 20 May 2017 01:59:03 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/EF26/production/_96122216_jess.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[General Election 2017: What campaign moments have you missed?]]></title>
             <description><![CDATA[See a sweary candidate, a confrontational voter and a forgetful leader in our 60-second catch-up.]]></description>
             <link>http://www.bbc.co.uk/news/election-2017-39981208</link>
@@ -313,10 +321,10 @@
         </item>
         <item>
             <title><![CDATA[Newborn baby found dead: Search resumes in Manor Park, Aldershot]]></title>
-            <description><![CDATA[A marine unit van is at the park, which contains a pond.]]></description>
+            <description><![CDATA[Police say they are "increasingly concerned" over the mother's welfare.]]></description>
             <link>http://www.bbc.co.uk/news/uk-england-hampshire-39985338</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-hampshire-39985338</guid>
-            <pubDate>Sat, 20 May 2017 14:21:10 GMT</pubDate>
+            <pubDate>Sat, 20 May 2017 15:01:51 GMT</pubDate>
             <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/2E1B/production/_96130811_capture2.jpg"/>
         </item>
         <item>
