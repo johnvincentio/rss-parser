@@ -36,6 +36,9 @@ db.once("open", function() {
     console.log("Connection succeeded.");
     test9();
 });
+db.on("disconnected", function() {
+    console.log("disconnected");
+});
 
 function test9() {
     console.log(">>> test9");
@@ -50,6 +53,9 @@ function test9() {
                     console.log("(1) Found: "+item);
                     console.log('Id %d Url %s', item.file_id, item.url);
                 });
+            })
+            .then(() => {
+                db.close();
             })
         })
     })
@@ -73,9 +79,3 @@ function makePromise(func, text) {
         console.log("<<< makePromise");
     });
 }
-
-//class RssMongo {
-//
-//}
-//
-//module.exports = RssMongo;

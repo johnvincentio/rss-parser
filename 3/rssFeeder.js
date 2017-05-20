@@ -62,7 +62,6 @@ class RssFeeder {
                 }
             })
             .on('finish', function() {
-                debugger;
                 console.log('Done promisedJson');
                 if (typeof jsonFile !== 'undefined') {
                     fs.writeFileSync(jsonFile, JSON.stringify(json) , 'utf-8');

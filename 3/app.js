@@ -8,56 +8,46 @@ https://www.npmjs.com/package/feedparser
 
 npm install feedparser --save
 npm install request --save
+npm install mongoose --save
 */
 
 'use strict';
 
 let RssFeeder = require('./rssFeeder');
 
-let feeds = [
+var mongoose = require("mongoose");
+mongoose.connect("mongodb://localhost:27017/news-reader");
+mongoose.Promise = global.Promise;
+
+var subscriptionsSchema = mongoose.Schema({
+    url: String,
+    file_id: Number,
+    channel: String,
+    items: String
+});
+
+var Subscription = mongoose.model('Subscription', subscriptionsSchema);
+
+let subscriptions = [
     {
         url: "http://rss.cnn.com/rss/edition.rss",
-        fid: "1"
+        file_id: "1"
     },
     {
         url: "http://feeds.bbci.co.uk/news/rss.xml",
-        fid: "2"
+        file_id: "2"
     }
 ];
 
-do1();
-
-/*
-1. iterate over feeds
-2. get xml feed, save as file
-2a. parse Xml file to json, save as file.
-*/
-
-function do1() {
-    let rssFeeder = new RssFeeder();
-    feeds.forEach((item) => {
-        console.log("item :"+item.url);
-        rssFeeder.promisedGet(item.url, makePath('xml', item.fid, 'xml'))
-        .then(() => {
-            rssFeeder.promisedJson(makePath('xml', item.fid, 'xml'),
-                                   makePath('json', item.fid, 'json'))
-            .then(() => {
-            })
-            .catch(function(err) {
-                console.error('Error on Parse to json; fid '+item.fid+' Reason: ', err);
-                throw Error('Error on Parse to json; fid '+item.fid+' Reason: ', err);
-            });
-        })
-        .catch(function(err) {
-            console.error('Error on Get URL; Url '+item.url+' Reason: ', err);
-        });
-    });
-}
-
-function makePath(subdir, fid, ext) {
-    return __dirname+"/"+subdir+"/"+fid+"."+ext;
-}
-
+var db = mongoose.connection;
+db.on("error", console.error.bind(console, "connection error"));
+db.once("open", function() {
+    console.log("Connection succeeded.");
+    do2();
+});
+db.on("disconnected", function() {
+    console.log("disconnected");
+});
 
 
 
@@ -71,7 +61,94 @@ function makePath(subdir, fid, ext) {
 2e.     determine channel data
 2f.     determine items data
 2g.     insert/replace data in mongo.
+3. close connection
 */
+
+function do2() {
+    let rssFeeder = new RssFeeder();
+    Subscription.find()
+    .exec()
+    .then(doc => {
+        doc.forEach((item, idx, array) => {
+            console.log('Found subscription: Id %d Url %s', item.file_id, item.url);
+            rssFeeder.promisedGet(item.url, makePath('xml', item.file_id, 'xml'))
+            .then(() => {
+                rssFeeder.promisedJson(makePath('xml', item.file_id, 'xml'),
+                                       makePath('json', item.file_id, 'json'))
+                .then((json) => {
+//                    console.log("Update "+json);
+                    debugger;
+                    Subscription.findByIdAndUpdate(item.id,
+                        {$set: {channel: json.meta, items: json.items}},
+                                                   {$upsert: true})
+                    .exec()
+                    .then((abc)=> {
+//                        console.log('**** Record updated '+abc);
+                        if (idx === array.length - 1) {
+                            db.close();
+                        }
+                    })
+                    .catch(err => {
+                        console.error('**** Update Error; Reason '+err);
+                    })
+
+                })
+                .catch(function(err) {
+                    console.error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+                    throw Error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+                })
+            })
+            .catch(function(err) {
+                console.error('Error on Get URL; Url '+item.url+' Reason: ', err);
+                throw Error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+            });
+
+        });
+    })
+    .catch(function(err) {
+        console.error('Error; Reason: ', err);
+    });
+}
+
+/*
+1. iterate over feeds
+2. get xml feed, save as file
+2a. parse Xml file to json, save as file.
+*/
+
+function do1() {
+    let rssFeeder = new RssFeeder();
+    subscriptions.forEach((item, idx, array) => {
+        console.log("item :"+item.url);
+        rssFeeder.promisedGet(item.url, makePath('xml', item.file_id, 'xml'))
+        .then(() => {
+            rssFeeder.promisedJson(makePath('xml', item.file_id, 'xml'),
+                                   makePath('json', item.file_id, 'json'))
+            .then(() => {
+
+            })
+            .catch(function(err) {
+                console.error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+                throw Error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+            })
+        })
+        .catch(function(err) {
+            console.error('Error on Get URL; Url '+item.url+' Reason: ', err);
+            throw Error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+        });
+        if (idx === array.length - 1) {
+            db.close();
+        }
+    });
+}
+
+function makePath(subdir, fid, ext) {
+    return __dirname+"/"+subdir+"/"+fid+"."+ext;
+}
+
+
+
+
 
 function test1() {
     var rssFeeder = new RssFeeder();
@@ -132,5 +209,3 @@ function test2a() {
         console.log('Catch: ', err);
     });
 }
-
-
