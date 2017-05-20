@@ -11,25 +11,25 @@
             <link>http://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 20 May 2017 15:15:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 May 2017 17:07:58 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
             <title><![CDATA[Trump in Saudi Arabia: First foreign trip starts as home troubles mount]]></title>
-            <description><![CDATA[His first foreign trip starts in Saudi Arabia amid controversy over his sacking of the FBI director.]]></description>
+            <description><![CDATA[After talks in Riyadh, Mr Trump and King Salman of Saudi Arabia approve an arms deal worth $110bn.]]></description>
             <link>http://www.bbc.co.uk/news/world-us-canada-39984903</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-39984903</guid>
-            <pubDate>Sat, 20 May 2017 14:45:14 GMT</pubDate>
+            <pubDate>Sat, 20 May 2017 16:44:00 GMT</pubDate>
             <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/163F3/production/_96132119_mediaitem96132118.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Iran election: Hassan Rouhani wins second term as president]]></title>
-            <description><![CDATA[A huge turnout helped Mr Rouhani, with Tehran registering twice as many votes as in 2013.]]></description>
-            <link>http://www.bbc.co.uk/news/world-middle-east-39984066</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-middle-east-39984066</guid>
-            <pubDate>Sat, 20 May 2017 14:10:37 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/163D4/production/_96129019_mediaitem96129018.jpg"/>
+            <title><![CDATA[Iran election: Hassan Rouhani says voters rejected extremism]]></title>
+            <description><![CDATA[The president says his re-election shows that Iranians want more interaction with the world.]]></description>
+            <link>http://www.bbc.co.uk/news/world-middle-east-39987338</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-middle-east-39987338</guid>
+            <pubDate>Sat, 20 May 2017 16:45:30 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/14139/production/_96133228_abb67081-4bdd-4f1a-a074-5a7143591303.jpg"/>
         </item>
         <item>
             <title><![CDATA[Pippa Middleton's wedding: Royals and celebrities at ceremony]]></title>
@@ -37,18 +37,18 @@
             <link>http://www.bbc.co.uk/news/uk-39984752</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39984752</guid>
             <pubDate>Sat, 20 May 2017 14:20:50 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/640D/production/_96131652_pippa_afp.jpg"/>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/F323/production/_96134226_mediaitem96134224.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Corbyn: Labour is committed to renewing Trident]]></title>
-            <description><![CDATA[Jeremy Corbyn responds following disagreement between shadow foreign and defence secretaries.]]></description>
-            <link>http://www.bbc.co.uk/news/uk-39984070</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39984070</guid>
-            <pubDate>Sat, 20 May 2017 14:06:47 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/1461A/production/_96128438_368a0aa7-efea-4edf-a1c4-0cd2dbee9cab.jpg"/>
+            <title><![CDATA[Theresa May says Labour can't be trusted on defence after Trident row]]></title>
+            <description><![CDATA[PM says Labour can't be trusted on defence - but Jeremy Corbyn says his party's position is clear.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39986835</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39986835</guid>
+            <pubDate>Sat, 20 May 2017 15:19:12 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/17DBB/production/_96132779_theresamay_getty.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Hunstanton Sea Life Sanctuary's first Humboltd penguin chick in decade]]></title>
+            <title><![CDATA[Hunstanton Sea Life Sanctuary's first Humboldt penguin chick in decade]]></title>
             <description><![CDATA[A Humboldt penguin chick has hatched at a sea life sanctuary for the first time in more than a decade.]]></description>
             <link>http://www.bbc.co.uk/news/uk-england-norfolk-39979735</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-norfolk-39979735</guid>
@@ -64,20 +64,12 @@
             <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/104C/production/_96127140_hi036055614.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Italy makes 12 vaccinations compulsory for children]]></title>
-            <description><![CDATA[The government is trying to combat a huge rise in measles cases as parents shun immunisation.]]></description>
-            <link>http://www.bbc.co.uk/news/world-europe-39983799</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-39983799</guid>
-            <pubDate>Fri, 19 May 2017 22:10:30 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/CC9E/production/_96128325_gettyimages-167095252-1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Church of Scotland expected to back same-sex marriage]]></title>
-            <description><![CDATA[The General Assembly is asked to approve a study on how same-sex weddings could take place in church.]]></description>
-            <link>http://www.bbc.co.uk/news/uk-scotland-39975373</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-scotland-39975373</guid>
-            <pubDate>Fri, 19 May 2017 23:16:19 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/23B6/production/_96124190_gettyimages-147739682.jpg"/>
+            <title><![CDATA[Millwall earn Championship promotion]]></title>
+            <description><![CDATA[Steve Morison scores a late winner as Millwall win promotion with victory over Bradford in the League One play-off final.]]></description>
+            <link>http://www.bbc.co.uk/sport/football/39905619</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39905619</guid>
+            <pubDate>Sat, 20 May 2017 16:26:54 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/D05F/production/_96134335_morrison_trophy_pa.jpg"/>
         </item>
         <item>
             <title><![CDATA[Cigarettes sold in plain green packs under new rules]]></title>
@@ -88,12 +80,12 @@
             <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/C280/production/_96129794_mediaitem96129793.jpg"/>
         </item>
         <item>
-            <title><![CDATA[New Orleans removes last confederate statue]]></title>
-            <description><![CDATA[There were cheers as the last monument to the pro-slavery rebellion was purged on Saturday.]]></description>
-            <link>http://www.bbc.co.uk/news/world-us-canada-39985414</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-39985414</guid>
-            <pubDate>Sat, 20 May 2017 09:29:53 GMT</pubDate>
-            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/111CC/production/_96129007_p053h123.jpg"/>
+            <title><![CDATA[Chemical mix-up at Derby David Lloyd club leaves eight needing hospital checks]]></title>
+            <description><![CDATA[The David Lloyd Club at Pride Park in Derby was closed for several hours.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-england-derbyshire-39986056</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-derbyshire-39986056</guid>
+            <pubDate>Sat, 20 May 2017 15:53:36 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/02BF/production/_96130700_mediaitem96130699.jpg"/>
         </item>
         <item>
             <title><![CDATA[Bank: Traffic banned to improve safety at dangerous junction]]></title>
@@ -110,6 +102,22 @@
             <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-wales-south-east-wales-39936477</guid>
             <pubDate>Sat, 20 May 2017 14:06:06 GMT</pubDate>
             <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/115D9/production/_96092117_proteusoneblue.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mamma Mia sequel announced with original cast]]></title>
+            <description><![CDATA[The Abba musical hit is getting a sequel after 10 years- with even more Abba songs.]]></description>
+            <link>http://www.bbc.co.uk/news/entertainment-arts-39987268</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/entertainment-arts-39987268</guid>
+            <pubDate>Sat, 20 May 2017 16:12:36 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/B5B1/production/_96131564_mammamia.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Naughty pageboys and a kiss: Pippa Middleton's wedding day ]]></title>
+            <description><![CDATA[The Duchess of Cambridge's younger sister married her partner James Matthews in Berkshire.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-39985181</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39985181</guid>
+            <pubDate>Sat, 20 May 2017 15:52:23 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/138F1/production/_96131108_p053hm5l.jpg"/>
         </item>
         <item>
             <title><![CDATA[Week in pictures: 13-19 May 2017]]></title>
@@ -136,12 +144,12 @@
             <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/124EE/production/_96109947_p053dwp6.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Could microchip tagging help in daily life?]]></title>
-            <description><![CDATA[A growing number of people are having them implanted to control technology.]]></description>
-            <link>http://www.bbc.co.uk/news/technology-39982247</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39982247</guid>
-            <pubDate>Sat, 20 May 2017 02:56:02 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/148B8/production/_96125148_mediaitem96125147.jpg"/>
+            <title><![CDATA[The moment a school employee lifts student by neck]]></title>
+            <description><![CDATA[The man was caught on camera grabbing the 13-year-old in the US state of Pennsylvania.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-39987906</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39987906</guid>
+            <pubDate>Sat, 20 May 2017 16:04:32 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/CEC5/production/_96133925_p053hmk4.jpg"/>
         </item>
         <item>
             <title><![CDATA[10 things we didn't know last week]]></title>
@@ -150,6 +158,14 @@
             <guid isPermaLink="true">http://www.bbc.co.uk/news/magazine-39973747</guid>
             <pubDate>Sat, 20 May 2017 00:02:56 GMT</pubDate>
             <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/1541F/production/_96117078_gettyimages-500559004.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Could microchip tagging help in daily life?]]></title>
+            <description><![CDATA[A growing number of people are having them implanted to control technology.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39982247</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39982247</guid>
+            <pubDate>Sat, 20 May 2017 02:56:02 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/148B8/production/_96125148_mediaitem96125147.jpg"/>
         </item>
         <item>
             <title><![CDATA[Japan's Princess Mako to lose royal status for love]]></title>
@@ -240,20 +256,28 @@
             <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/5B60/production/_96129332_mediaitem96129211.jpg"/>
         </item>
         <item>
+            <title><![CDATA[Inverness Caledonian Thistle 3-2 Motherwell]]></title>
+            <description><![CDATA[Inverness Caledonian Thistle are relegated from the Scottish Premiership, despite beating Motherwell.]]></description>
+            <link>http://www.bbc.co.uk/sport/football/39905635</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39905635</guid>
+            <pubDate>Sat, 20 May 2017 15:49:08 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/D375/production/_96133145_13571412.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Premiership semi-final: Exeter Chiefs 18-16 Saracens]]></title>
+            <description><![CDATA[Saracens' hopes of consecutive domestic and European titles are dashed as Exeter score a late try in the Premiership semi-final.]]></description>
+            <link>http://www.bbc.co.uk/sport/rugby-union/39938414</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/rugby-union/39938414</guid>
+            <pubDate>Sat, 20 May 2017 16:18:51 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/B81D/production/_96133174_gettyimages-685938374.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[WSL 1 Spring Series: Arsenal Ladies beat Birmingham City Ladies to go second]]></title>
             <description><![CDATA[Louise Quinn scores twice as Arsenal beat Birmingham City 4-2 to move up to second in the WSL 1 Spring Series table.]]></description>
             <link>http://www.bbc.co.uk/sport/football/39987022</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39987022</guid>
             <pubDate>Sat, 20 May 2017 15:07:23 GMT</pubDate>
             <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/D6F9/production/_96133055_louise_quinn_rex.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Gervonta Davis v Liam Walsh: Floyd Mayweather fighter's tough rise from Baltimore beginnings]]></title>
-            <description><![CDATA[How one of the world's youngest world champions made it from bleak beginnings to being a poster boy at Mayweather Promotions.]]></description>
-            <link>http://www.bbc.co.uk/sport/boxing/39965423</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/sport/boxing/39965423</guid>
-            <pubDate>Fri, 19 May 2017 08:13:21 GMT</pubDate>
-            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/F8CA/production/_96109636_1indexreuters.jpg"/>
         </item>
         <item>
             <title><![CDATA[Labour working on a 'state-backed mortgage scheme']]></title>
@@ -280,20 +304,20 @@
             <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/2AC8/production/_96125901_polishshoppa.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Families question Tory social care plan]]></title>
-            <description><![CDATA[Some people paying for care say it would help them but others feel left in the dark]]></description>
-            <link>http://www.bbc.co.uk/news/election-2017-39961070</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39961070</guid>
-            <pubDate>Sat, 20 May 2017 09:12:54 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/2828/production/_96108201_pennylewis.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[General election 2017: How do I register to vote?]]></title>
             <description><![CDATA[Don't get left outside on polling day - beat the deadline to have your say in the general election.]]></description>
             <link>http://www.bbc.co.uk/news/uk-39663004</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39663004</guid>
             <pubDate>Fri, 21 Apr 2017 02:48:22 GMT</pubDate>
             <media:thumbnail width="1024" height="575" url="http://c.files.bbci.co.uk/14C50/production/_95727058_p050n9n6.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Families question Tory social care plan]]></title>
+            <description><![CDATA[Some people paying for care say it would help them but others feel left in the dark]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39961070</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39961070</guid>
+            <pubDate>Sat, 20 May 2017 09:12:54 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/2828/production/_96108201_pennylewis.jpg"/>
         </item>
         <item>
             <title><![CDATA[Election 2017: Will the Liberal Democrats win over young voters?]]></title>
@@ -344,12 +368,12 @@
             <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/15F88/production/_96129998_dsc_7514.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Online trolling putting women off politics, says Unison Wales]]></title>
-            <description><![CDATA[Politicians and parliamentary candidates are being targeted by "unacceptable" online abuse.]]></description>
-            <link>http://www.bbc.co.uk/news/uk-wales-39940086</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-wales-39940086</guid>
-            <pubDate>Sat, 20 May 2017 05:39:57 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/ED63/production/_96117706_gettyimages-184973085.jpg"/>
+            <title><![CDATA[Labour ' fully committed' to Trident]]></title>
+            <description><![CDATA[Jeremy Corbyn responds following disagreement between shadow foreign and defence secretaries.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-39984070</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39984070</guid>
+            <pubDate>Sat, 20 May 2017 14:06:47 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/1461A/production/_96128438_368a0aa7-efea-4edf-a1c4-0cd2dbee9cab.jpg"/>
         </item>
         <item>
             <title><![CDATA[Man charged over Darlington street rape]]></title>

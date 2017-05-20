@@ -14,6 +14,7 @@ npm install mongoose --save
 'use strict';
 
 let RssFeeder = require('./rssFeeder');
+let Utils = require('./utils');
 
 var mongoose = require("mongoose");
 
@@ -32,6 +33,9 @@ db.on("disconnected", function() {
     console.log("disconnected");
 });
 
+let rssFeeder = new RssFeeder();
+let utils = new Utils();
+
 /*
 1. get Subscriptions from mongo
 2. For each subscription,
@@ -46,7 +50,6 @@ db.on("disconnected", function() {
 */
 
 function do2() {
-    let rssFeeder = new RssFeeder();
     Subscription.find()
     .exec()
     .then(doc => {
@@ -57,22 +60,18 @@ function do2() {
                 rssFeeder.promisedJson(makePath('xml', item.file_id, 'xml'),
                                        makePath('json', item.file_id, 'json'))
                 .then((json) => {
-//                    console.log("Update "+json);
-                    debugger;
+                    let obj = utils.transform(json);
+
                     Subscription.findByIdAndUpdate(item.id,
-                        {$set: {channel: json.meta, items: json.items}},
-                                                   {$upsert: true})
+                        {$set: {channel: obj.channel, items: obj.items}},
+                        {$upsert: true})
                     .exec()
-                    .then((abc)=> {
-//                        console.log('**** Record updated '+abc);
-//                        if (idx === array.length - 1) {
-//                            db.close();
-//                        }
+                    .then((doc)=> {
+                        console.log('Subscription updated: Id %d Url %s', doc.file_id, doc.url);
                     })
                     .catch(err => {
                         console.error('**** Update Error; Reason '+err);
                     })
-
                 })
                 .catch(function(err) {
                     console.error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
@@ -185,7 +184,6 @@ function test2() {
     .then((json) => {
         console.log("json :"+json+":");
         console.log("test2; done promisedJson");
-        debugger;
     })
     .catch(function(err) {
         console.log('Catch: ', err);

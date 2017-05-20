@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>http://www.bbc.co.uk/news/</link>
+        <image>
+            <url>http://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>http://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 18 May 2017 22:06:12 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Conservative manifesto: Theresa May targets mainstream Britain']]></title>
+            <description><![CDATA[The party's manifesto includes big changes to social care funding - and aims to balance the budget by 2025.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39956541</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39956541</guid>
+            <pubDate>Thu, 18 May 2017 16:47:19 GMT</pubDate>
+            <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/10ED2/production/_96103396_mediaitem96103395.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Trump: FBI inquiry into Russia links 'hurts US terribly']]></title>
+            <description><![CDATA[The president objects after the appointment of a special counsel to take over the FBI investigation.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-39965107</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-39965107</guid>
+            <pubDate>Thu, 18 May 2017 20:41:37 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/1392A/production/_96107108_gettyimages-684142558.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Times Square crash: How it unfolded]]></title>
+            <description><![CDATA[A woman is dead and 22 people hurt after a driver mowed down people in New York's Times Square.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-39969869</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-39969869</guid>
+            <pubDate>Thu, 18 May 2017 20:13:19 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/B93D/production/_96112474_hi039553070.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ex-TV producer who hired hitmen to kill partner found guilty]]></title>
+            <description><![CDATA[David Harris had become "besotted" with a sex worker and wanted to inherit his partner's fortune.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-england-sussex-39959932</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-sussex-39959932</guid>
+            <pubDate>Thu, 18 May 2017 20:18:22 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/276A/production/_96109001_hi039504862.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Euromillions winner's son loses court battle for money for life]]></title>
+            <description><![CDATA[The "profligate" son loses his court battle to force his Euromillons-win father to support him for life.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-england-cambridgeshire-39966145</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-cambridgeshire-39966145</guid>
+            <pubDate>Thu, 18 May 2017 18:55:08 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/97FF/production/_96111983_1491d7fb-f3bf-4b8c-9ed8-fc949c891020.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Chelsea Manning releases new photo]]></title>
+            <description><![CDATA[The portrait of the former US soldier was published the day after she left a military prison.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-39969445</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-39969445</guid>
+            <pubDate>Thu, 18 May 2017 17:25:32 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/F29F/production/_96111126_chelsea_manning.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Chris Cornell: Soundgarden star dies of 'hanging by suicide']]></title>
+            <description><![CDATA[A medical examiner confirms the 52-year-old Soundgarden star died shortly after a concert in Detroit.]]></description>
+            <link>http://www.bbc.co.uk/news/entertainment-arts-39960066</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/entertainment-arts-39960066</guid>
+            <pubDate>Thu, 18 May 2017 18:43:49 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/332C/production/_96100131_cornell_reuters.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Restaurant hit by 'human meat' fake news claims]]></title>
+            <description><![CDATA[A London restaurant has been hit by fake news saying they sold human meat.]]></description>
+            <link>http://www.bbc.co.uk/newsbeat/articles/39966215</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/newsbeat/articles/39966215</guid>
+            <pubDate>Thu, 18 May 2017 16:09:24 GMT</pubDate>
+            <media:thumbnail width="613" height="345" url="http://c.files.bbci.co.uk/B978/production/_96108474_fakenews4.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Number of soldiers in British Army falls]]></title>
+            <description><![CDATA[Ministry of Defence figures show the force hasn't met its target number for two years.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-39968776</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39968776</guid>
+            <pubDate>Thu, 18 May 2017 17:15:00 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/3C29/production/_96110451_ddd94cb5-8bdf-470c-8c5f-c796fe0d52c3.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ridwaan Shaikh jailed for Watford punch death]]></title>
+            <description><![CDATA[Bradley Cresswell never regained consciousness after he was punched by Shaikh during a night out.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-england-beds-bucks-herts-39968212</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-beds-bucks-herts-39968212</guid>
+            <pubDate>Thu, 18 May 2017 17:41:37 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/16FC5/production/_96094149_shaikh_hertspolice.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mum's warning after daughter dies of meningitis W]]></title>
+            <description><![CDATA[Lauren Sandell was 18 years old when she died from the disease, a few months after starting university.]]></description>
+            <link>http://www.bbc.co.uk/news/health-39958793</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/health-39958793</guid>
+            <pubDate>Thu, 18 May 2017 09:56:31 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/A1B7/production/_96099314_p0538fxs.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Texas man sues woman for texting in date]]></title>
+            <description><![CDATA[He says the woman's behaviour was "a threat to civilised society"; she calls the lawsuit "crazy".]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-39966675</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-39966675</guid>
+            <pubDate>Thu, 18 May 2017 15:48:45 GMT</pubDate>
+            <media:thumbnail width="884" height="497" url="http://c.files.bbci.co.uk/10C2A/production/_96105686_10441177_1707174826224514_5528569202271529610_n.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Japan's Princess Mako to lose royal status for love]]></title>
+            <description><![CDATA[Princess Mako, eldest granddaughter of the Emperor Akihito, is giving up her royal status for love.]]></description>
+            <link>http://www.bbc.co.uk/news/world-asia-39968025</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-asia-39968025</guid>
+            <pubDate>Thu, 18 May 2017 15:26:12 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/3DA4/production/_96108751_p0539frn.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[General Election: Five reasons you should register to vote]]></title>
+            <description><![CDATA[The deadline to register to vote in the UK General Election is 22 May, so here's some good reasons why you should sign up if you haven't already.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-politics-39955736</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-politics-39955736</guid>
+            <pubDate>Thu, 18 May 2017 04:58:44 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/E73F/production/_96099195_p0537zhv.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[General election 2017 meets The Thick Of It comedy]]></title>
+            <description><![CDATA[Highlights from the 2017 election campaign might make some think the Thick of It was closer to fact than fiction.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39964964</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39964964</guid>
+            <pubDate>Thu, 18 May 2017 12:30:31 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/3426/production/_96105331_p0538ycf.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Is Girl Guiding really 'feminist'?]]></title>
+            <description><![CDATA[As the Guides consider badges for Campaigning and DIY, what do teens think of the century-old organisation?]]></description>
+            <link>http://www.bbc.co.uk/news/uk-39952566</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39952566</guid>
+            <pubDate>Wed, 17 May 2017 23:46:39 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/06E9/production/_96096710_charlottegirlguide1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Queen's guard shouts at tourist outside Windsor Castle]]></title>
+            <description><![CDATA[The footage was filmed outside Windsor Castle on a mobile phone.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-39965395</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39965395</guid>
+            <pubDate>Thu, 18 May 2017 13:26:12 GMT</pubDate>
+            <media:thumbnail width="1024" height="575" url="http://c.files.bbci.co.uk/16507/production/_96099319_p0539004.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The worst-treated politician in history?]]></title>
+            <description><![CDATA[Find out what's buzzing in the social media world today.]]></description>
+            <link>http://www.bbc.co.uk/news/blogs-trending-39961362</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/blogs-trending-39961362</guid>
+            <pubDate>Thu, 18 May 2017 11:55:03 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/12F3E/production/_96103677_d097acf0-fda8-445b-bd8a-177ba8900c04.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA['Dying taught me how to live']]></title>
+            <description><![CDATA[Lisa, Jolene and Kevin share how they make the most of life and enjoy every moment after a terminal cancer diagnosis.]]></description>
+            <link>http://www.bbc.co.uk/news/magazine-39950924</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/magazine-39950924</guid>
+            <pubDate>Wed, 17 May 2017 23:58:55 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/DA5A/production/_96089855_p0535xxc.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Google Expedition brings 3D objects to classrooms]]></title>
+            <description><![CDATA[Google Expedition brings 3D objects to classrooms with augmented reality. The technology was shown off at Google I/O, the company's annual developers' conference in Silicon Valley.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-39958089</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-39958089</guid>
+            <pubDate>Thu, 18 May 2017 01:25:40 GMT</pubDate>
+            <media:thumbnail width="1920" height="1080" url="http://c.files.bbci.co.uk/1299D/production/_96098167_mediaitem96098166.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Would you drive a car made from plants?]]></title>
+            <description><![CDATA[Students in the Netherlands have come up with this novel design.]]></description>
+            <link>http://www.bbc.co.uk/news/39957804</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/39957804</guid>
+            <pubDate>Thu, 18 May 2017 04:35:58 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/16DF9/production/_96098639_p0537vp5.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[BBC News Channel]]></title>
+            <description><![CDATA[BBC coverage of latest developments]]></description>
+            <link>http://www.bbc.co.uk/news/10318089</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/10318089</guid>
+            <pubDate>Fri, 17 Feb 2017 09:41:12 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://news.bbcimg.co.uk/media/images/83122000/png/_83122356_globe_2048x1152.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Chris Cornell - so much more than a grunge star]]></title>
+            <description><![CDATA[How Soundgarden's not-so-secret weapon became one of grunge's leading lights.]]></description>
+            <link>http://www.bbc.co.uk/news/entertainment-arts-39959921</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/entertainment-arts-39959921</guid>
+            <pubDate>Thu, 18 May 2017 12:43:40 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/E93E/production/_96101795_mediaitem96101794.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How many women might win power?]]></title>
+            <description><![CDATA[There are more than 3,300 candidates hoping to win a seat in the Commons. What do we know about those in the running?]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39949042</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39949042</guid>
+            <pubDate>Thu, 18 May 2017 11:49:27 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/1438E/production/_96103828_promo_18_05_17_female_candidates.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Spain's 'lazy' young told by judges to get a life]]></title>
+            <description><![CDATA[A judge rejects a young woman's demand to continue receiving her parents' financial support.]]></description>
+            <link>http://www.bbc.co.uk/news/world-europe-39934674</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-39934674</guid>
+            <pubDate>Thu, 18 May 2017 02:48:52 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/12244/production/_96080347_sofa.gif"/>
+        </item>
+        <item>
+            <title><![CDATA[The man who helped prevent a nuclear crisis]]></title>
+            <description><![CDATA[In 1988 a military scientist from Taiwan sent his wife to Tokyo Disneyland and then defected to the US.]]></description>
+            <link>http://www.bbc.co.uk/news/world-asia-39252502</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-asia-39252502</guid>
+            <pubDate>Thu, 18 May 2017 00:28:25 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/7B8D/production/_95992613_changhsienyi.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Would you carry something abroad for a stranger?]]></title>
+            <description><![CDATA[The firms helping travellers to transport goods around the world for complete strangers, and how they overcome security concerns.]]></description>
+            <link>http://www.bbc.co.uk/news/business-39851770</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-39851770</guid>
+            <pubDate>Wed, 17 May 2017 23:01:47 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/C799/production/_96079015_gettyimages-518460916.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Gaza residents left in the dark amid Palestinian power struggle]]></title>
+            <description><![CDATA[Gaza residents face blackouts of up to 20 hours a day because of a battle between the PA and Hamas.]]></description>
+            <link>http://www.bbc.co.uk/news/world-middle-east-39939611</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-middle-east-39939611</guid>
+            <pubDate>Thu, 18 May 2017 02:52:43 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/E114/production/_96102675_kidindark.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Leicester City 1-6 Tottenham Hotspur]]></title>
+            <description><![CDATA[Harry Kane scores four times as a dominant Tottenham hammer Leicester City to secure their 25th league win of the season.]]></description>
+            <link>http://www.bbc.co.uk/sport/football/39879805</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39879805</guid>
+            <pubDate>Thu, 18 May 2017 21:16:14 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/9FB0/production/_96108804_epaspursceleration.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Partick Thistle 0-5 Celtic]]></title>
+            <description><![CDATA[Champions Celtic are one game away from an unbeaten Premiership season after a dominant victory over Partick Thistle.]]></description>
+            <link>http://www.bbc.co.uk/sport/football/39879798</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39879798</guid>
+            <pubDate>Thu, 18 May 2017 20:35:10 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/4791/production/_96112381_celtic3.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Premier League Darts: Michael Van Gerwen beats Peter Wright to win third title]]></title>
+            <description><![CDATA[World number one Michael van Gerwen beats Scotland's Peter Wright to win his third Premier League Darts title.]]></description>
+            <link>http://www.bbc.co.uk/sport/darts/39970407</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/darts/39970407</guid>
+            <pubDate>Thu, 18 May 2017 21:33:10 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/DCC9/production/_96112565_o2-sf-vangerwen6.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Luton Town 3-3 Blackpool (agg: 5-6)]]></title>
+            <description><![CDATA[Stuart Moore's injury-time own goal sends Blackpool into the League Two play-off final with an aggregate win over Luton Town.]]></description>
+            <link>http://www.bbc.co.uk/sport/football/39879758</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39879758</guid>
+            <pubDate>Thu, 18 May 2017 21:59:25 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/15645/production/_96112678_blackpool2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Pyeongchang 2018: Athletes to travel through demilitarised zone]]></title>
+            <description><![CDATA[North Korean athletes will be allowed to travel through the demilitarised no-go zone into South Korea for next year's Winter Olympics.]]></description>
+            <link>http://www.bbc.co.uk/sport/winter-olympics/39969809</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/winter-olympics/39969809</guid>
+            <pubDate>Thu, 18 May 2017 21:21:27 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/A2F9/production/_96112714_dmz_getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Diving bans: Football Association approves retrospective action]]></title>
+            <description><![CDATA[Players who dive in English football will face bans from next season under new Football Association regulations.]]></description>
+            <link>http://www.bbc.co.uk/sport/football/39962886</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39962886</guid>
+            <pubDate>Thu, 18 May 2017 17:57:18 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/1CAC/production/_96104370_gaston_ramirez_middlesbrough_getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[WSL: Liverpool's Caroline Weir scores 30-yarder in win over Sunderland]]></title>
+            <description><![CDATA[The best of the action from this week's WSL, featuring a 30-yard wonder goal from Liverpool's Caroline Weir and two goals from England's Ellen White.]]></description>
+            <link>http://www.bbc.co.uk/sport/football/39968045</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/39968045</guid>
+            <pubDate>Thu, 18 May 2017 15:45:08 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/4574/production/_96108771_p0539j9f.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Conservative manifesto summary: Key points at-a-glance]]></title>
+            <description><![CDATA[The Conservatives launch their manifesto ahead of the general election. Here are some key points.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39960311</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39960311</guid>
+            <pubDate>Thu, 18 May 2017 17:26:54 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/2EC2/production/_96107911_gettyimages-602320782-2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Jamie Oliver: Axing free school meals a disgrace]]></title>
+            <description><![CDATA[Theresa May's plan to axe free school meals is a disgrace, says TV chef Jamie Oliver.]]></description>
+            <link>http://www.bbc.co.uk/news/education-39969155</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/education-39969155</guid>
+            <pubDate>Thu, 18 May 2017 17:23:55 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/ED1D/production/_96110706_36065a7c-2917-4fe8-bf55-98ef2b52624d.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Conservative manifesto: Three things you need to know]]></title>
+            <description><![CDATA[Laura Kuenssberg breaks down the Conservative's plans.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-39966946</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-39966946</guid>
+            <pubDate>Thu, 18 May 2017 14:36:46 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/4056/production/_96107461_p0539b1l.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Who could social care changes affect?]]></title>
+            <description><![CDATA[What can we say about the impact of the Conservative plans for social care?]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39964524</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39964524</guid>
+            <pubDate>Thu, 18 May 2017 15:53:37 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/742B/production/_95893792_24realitycheckwithelection.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How would Conservatives fund their plans?]]></title>
+            <description><![CDATA[The Conservatives promise changes to social care, balancing the budget and money for the NHS.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39965135</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39965135</guid>
+            <pubDate>Thu, 18 May 2017 14:03:23 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/8FC4/production/_95740863_24realitycheckwithelection.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Election 2017: State pension triple lock battle lines drawn]]></title>
+            <description><![CDATA[Pensions experts say Conservative plans to reduce the generosity of the state pension are a risk.]]></description>
+            <link>http://www.bbc.co.uk/news/business-39960309</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-39960309</guid>
+            <pubDate>Thu, 18 May 2017 14:32:16 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/C328/production/_96106994_pensionjar_getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Guide to the parties: Green Party]]></title>
+            <description><![CDATA[The low-down on the Green Party, which is hoping to add at least one MP to join party leader Caroline Lucas at Westminster.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39887723</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39887723</guid>
+            <pubDate>Thu, 18 May 2017 00:07:05 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/12C20/production/_96023867_039414915-1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[General Election 2017: Is Theresa May a 'Red Tory'?]]></title>
+            <description><![CDATA[What kind of Conservative is the prime minister and can she win the trust of 'ordinary working people'?]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39946611</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39946611</guid>
+            <pubDate>Wed, 17 May 2017 18:18:38 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/2953/production/_96097501_may_reuters.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Election 2017: The possible battles beyond for Labour]]></title>
+            <description><![CDATA[What happens to Labour - and Jeremy Corbyn - if they lose the election?]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39956546</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39956546</guid>
+            <pubDate>Wed, 17 May 2017 21:32:02 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/E267/production/_96095975_corbyn_bus_reu.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[General election 2017: Find your constituency and candidates]]></title>
+            <description><![CDATA[The BBC News site is listing all candidates standing on 8 June - find them with our postcode search.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39946901</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39946901</guid>
+            <pubDate>Wed, 17 May 2017 15:50:54 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/7312/production/_96085492_promo_notext.png"/>
+        </item>
+        <item>
+            <title><![CDATA[How big is the UK's deficit and debt? ]]></title>
+            <description><![CDATA[How big is the UK's deficit and debt burden?]]></description>
+            <link>http://www.bbc.co.uk/news/business-39897498</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/business-39897498</guid>
+            <pubDate>Wed, 17 May 2017 13:22:03 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/8FC4/production/_95740863_24realitycheckwithelection.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[General Election 2017: Greens aim to end 'period poverty']]></title>
+            <description><![CDATA[Party promises free sanitary products for schoolgirls and women in financial need.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39943496</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39943496</guid>
+            <pubDate>Wed, 17 May 2017 08:19:43 GMT</pubDate>
+            <media:thumbnail width="1182" height="665" url="http://c.files.bbci.co.uk/22FE/production/_96085980_gettyimages-479427060.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Are you being targeted by political ads?]]></title>
+            <description><![CDATA[How is social media being used by the political parties in this election? We need your input!]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39936929</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39936929</guid>
+            <pubDate>Tue, 16 May 2017 20:19:40 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/AEAE/production/_96081744_compositetighter.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Why the 15 million Don't Knows aren't voting]]></title>
+            <description><![CDATA[If non-voters don't know and don't care, what hope is there for them in a world of fake news?]]></description>
+            <link>http://www.bbc.co.uk/news/uk-england-39784404</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-39784404</guid>
+            <pubDate>Tue, 16 May 2017 00:20:10 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/11DD3/production/_95917137_hi031471320.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Poll tracker: See how the parties compare]]></title>
+            <description><![CDATA[Who is on course to win the 2017 general election? Use our poll tracker to see the latest polls and analysis.]]></description>
+            <link>http://www.bbc.co.uk/news/election-2017-39856354</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-39856354</guid>
+            <pubDate>Wed, 17 May 2017 11:48:43 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/DC95/production/_95996465_election_2017_polltracker_promo4.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Moors Murderer Ian Brady's body released from mortuary]]></title>
+            <description><![CDATA[The serial killer's body is no longer under police guard and now the property of his lawyer.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-england-manchester-39965466</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-manchester-39965466</guid>
+            <pubDate>Thu, 18 May 2017 15:39:41 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/4C33/production/_86370591_86370590.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Court told woman was 'raped and forced into prostitution']]></title>
+            <description><![CDATA[Hungarian couple remanded in custody charged with sex trafficking a woman in her 20s in Tyrone.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-northern-ireland-39963681</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-northern-ireland-39963681</guid>
+            <pubDate>Thu, 18 May 2017 15:46:29 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/17CAA/production/_96105479_strabanecourthouse.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Election 2017: Tory manifesto says 'public consent' needed for indyref2]]></title>
+            <description><![CDATA[Tory manifesto says no independence referendum unless there is "public consent" for it to happen.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-scotland-scotland-politics-39959844</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-scotland-scotland-politics-39959844</guid>
+            <pubDate>Thu, 18 May 2017 12:19:28 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/13948/production/_96100208_epa.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Rhodri Morgan, Wales' former Labour first minister, dies]]></title>
+            <description><![CDATA[Rhodri Morgan praised for stabilising the fledgling Welsh Assembly in nine years as first minister.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-wales-politics-39957137</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-wales-politics-39957137</guid>
+            <pubDate>Thu, 18 May 2017 14:47:05 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/6162/production/_96103942_rhodri_betina_skovbro.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[British Army officer rape trial: 'Waiter told to keep filling wine glass']]></title>
+            <description><![CDATA[Lt Col Benedict Tomkins denies raping a servicewoman at an United Nations event in Uganda.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-england-bristol-39967778</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-england-bristol-39967778</guid>
+            <pubDate>Thu, 18 May 2017 19:03:28 GMT</pubDate>
+            <media:thumbnail width="1232" height="693" url="http://c.files.bbci.co.uk/EFD4/production/_92469316_abbeywood.jpg"/>
+        </item>
+    </channel>
+</rss>

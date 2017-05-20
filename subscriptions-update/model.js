@@ -8,8 +8,20 @@ const mongoose = require("mongoose");
 var subscriptionsSchema = mongoose.Schema({
     url: String,
     file_id: Number,
-    channel: String,
-    items: String
+    channel: {
+        title: String,
+        description: String,
+        link: String,
+        pubDate: String,
+        image: String
+    },
+    items: [
+        {
+            title: String,
+            description: String,
+            link: String
+        }
+    ]
 });
 
 var Subscription = mongoose.model('Subscription', subscriptionsSchema);
