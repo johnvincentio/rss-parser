@@ -79,9 +79,8 @@ function doUpdate() {
             })
             .catch(function(err) {
                 console.error('Error on Get URL; Url '+item.url+' Reason: ', err);
-                throw Error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+//                throw Error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
             });
-
         });
     })
     .catch(function(err) {
