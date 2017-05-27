@@ -6,8 +6,8 @@
 const mongoose = require("mongoose");
 
 var subscriptionsSchema = mongoose.Schema({
+    _id: Number,
     url: String,
-    file_id: Number,
     channel: {
         title: String,
         description: String,

@@ -54,11 +54,11 @@ function doUpdate() {
     .exec()
     .then(doc => {
         doc.forEach((item, idx, array) => {
-            console.log('Found subscription: Id %d Url %s', item.file_id, item.url);
-            rssFeeder.promisedGet(item.url, makePath('xml', item.file_id, 'xml'))
+            console.log('Found subscription: Id %d Url %s', item._id, item.url);
+            rssFeeder.promisedGet(item.url, makePath('xml', item._id, 'xml'))
             .then(() => {
-                rssFeeder.promisedJson(makePath('xml', item.file_id, 'xml'),
-                                       makePath('json', item.file_id, 'json'))
+                rssFeeder.promisedJson(makePath('xml', item._id, 'xml'),
+                                       makePath('json', item._id, 'json'))
                 .then((json) => {
                     let obj = utils.transform(json);
                     Subscription.findByIdAndUpdate(item.id,
@@ -66,20 +66,20 @@ function doUpdate() {
                         {$upsert: true})
                     .exec()
                     .then((doc)=> {
-                        console.log('Subscription updated: Id %d Url %s', doc.file_id, doc.url);
+                        console.log('Subscription updated: Id %d Url %s', doc._id, doc.url);
                     })
                     .catch(err => {
                         console.error('**** Update Error; Reason '+err);
                     })
                 })
                 .catch(function(err) {
-                    console.error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
-                    throw Error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+                    console.error('Error on Parse to json; fid '+item._id+' Reason: ', err);
+                    throw Error('Error on Parse to json; fid '+item._id+' Reason: ', err);
                 })
             })
             .catch(function(err) {
                 console.error('Error on Get URL; Url '+item.url+' Reason: ', err);
-//                throw Error('Error on Parse to json; fid '+item.file_id+' Reason: ', err);
+//                throw Error('Error on Parse to json; fid '+item._id+' Reason: ', err);
             });
         });
     })
