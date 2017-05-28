@@ -12,19 +12,30 @@
     <description>The latest international news from Sky, featuring top stories from around the world and breaking news, as it happens.</description>
     <language>en-GB</language>
     <copyright>Copyright 2016, BSKYB. All Rights Reserved.</copyright>
-    <lastBuildDate>Sat, 27 May 2017 10:46:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 27 May 2017 14:55:00 +0100</lastBuildDate>
     <category>Sky News</category>
     <ttl>1</ttl>
     <item>
-      <title>Trump son-in-law discussed 'secret line to Russia'</title>
-      <link>http://news.sky.com/story/kushner-discussed-secret-communications-channel-with-russia-10894670</link>
-      <description>Russia's ambassador to the US told his bosses that he and Jared Kushner talked about setting up a secret channel for communication between Donald Trump's transition team and Moscow, according to a report.</description>
-      <pubDate>Sat, 27 May 2017 02:35:00 +0100</pubDate>
-      <guid>http://news.sky.com/story/kushner-discussed-secret-communications-channel-with-russia-10894670</guid>
-      <enclosure url="http://e3.365dm.com/17/05/70x70/aca8fd6d3e8e7c475055436d03dc963c06b205182c79d304502f6b882ec1a20e_3963818.jpg?20170527043709" length="0" type="image/jpeg"/>
-      <media:description type="html">US President Donald Trump and White House senior adviser Jared Kushner take part in a bilateral meeting with Italy&amp;#39;s Prime Minister</media:description>
-      <media:thumbnail url="http://e3.365dm.com/17/05/70x70/aca8fd6d3e8e7c475055436d03dc963c06b205182c79d304502f6b882ec1a20e_3963818.jpg?20170527043709" width="70" height="70"/>
-      <media:content type="image/jpeg" url="http://e3.365dm.com/17/05/70x70/aca8fd6d3e8e7c475055436d03dc963c06b205182c79d304502f6b882ec1a20e_3963818.jpg?20170527043709"/>
+      <title>G7 breaks up without US agreement on climate</title>
+      <link>http://news.sky.com/story/g7-summit-breaks-up-in-stalemate-over-agreement-with-us-on-gas-emissions-10895141</link>
+      <description>The G7 summit has ended in deadlock without any agreement with the US to commit to the Paris climate agreement to lower greenhouse gas emissions. </description>
+      <pubDate>Sat, 27 May 2017 14:55:00 +0100</pubDate>
+      <guid>http://news.sky.com/story/g7-summit-breaks-up-in-stalemate-over-agreement-with-us-on-gas-emissions-10895141</guid>
+      <enclosure url="http://e3.365dm.com/17/05/70x70/eec75ce29367510d6ea6780d8de036b8fd73dd4a5a78205f9ecc17b2932a8173_3964214.jpg?20170527145153" length="0" type="image/jpeg"/>
+      <media:description type="html">German Chancellor Angela Merkel,  with President Donald Trump and French President Emmanuel Macron</media:description>
+      <media:thumbnail url="http://e3.365dm.com/17/05/70x70/eec75ce29367510d6ea6780d8de036b8fd73dd4a5a78205f9ecc17b2932a8173_3964214.jpg?20170527145153" width="70" height="70"/>
+      <media:content type="image/jpeg" url="http://e3.365dm.com/17/05/70x70/eec75ce29367510d6ea6780d8de036b8fd73dd4a5a78205f9ecc17b2932a8173_3964214.jpg?20170527145153"/>
+    </item>
+    <item>
+      <title>BA cancels all flights amid global IT failure</title>
+      <link>http://news.sky.com/story/ba-passengers-face-delays-after-it-problems-cause-disruption-10894862</link>
+      <description>British Airways has cancelled all flights from London's Heathrow and Gatwick airports for the rest of the day due to a &quot;global system outage&quot;.</description>
+      <pubDate>Sat, 27 May 2017 11:02:00 +0100</pubDate>
+      <guid>http://news.sky.com/story/ba-passengers-face-delays-after-it-problems-cause-disruption-10894862</guid>
+      <enclosure url="http://e3.365dm.com/17/05/70x70/2264734df46432bfdcfce9826823c71b8f9a7224895bdd1c22268900a9f62603_3964210.jpg?20170527144649" length="0" type="image/jpeg"/>
+      <media:description type="html">Thousands of passengers are stranded at Heathrow amid a global system outage</media:description>
+      <media:thumbnail url="http://e3.365dm.com/17/05/70x70/2264734df46432bfdcfce9826823c71b8f9a7224895bdd1c22268900a9f62603_3964210.jpg?20170527144649" width="70" height="70"/>
+      <media:content type="image/jpeg" url="http://e3.365dm.com/17/05/70x70/2264734df46432bfdcfce9826823c71b8f9a7224895bdd1c22268900a9f62603_3964210.jpg?20170527144649"/>
     </item>
     <item>
       <title>Palestinian inmates end 40-day hunger strike</title>
@@ -47,6 +58,17 @@
       <media:description type="html">Egypt launches airstrikes on terror camps in Libya</media:description>
       <media:thumbnail url="http://e3.365dm.com/17/05/70x70/f7c3b498762021501e2903eb5c2377078748a8d74f165d867bb73bfd34279736_3963773.jpg?20170526224001" width="70" height="70"/>
       <media:content type="image/jpeg" url="http://e3.365dm.com/17/05/70x70/f7c3b498762021501e2903eb5c2377078748a8d74f165d867bb73bfd34279736_3963773.jpg?20170526224001"/>
+    </item>
+    <item>
+      <title>Trump son-in-law discussed 'secret line to Russia'</title>
+      <link>http://news.sky.com/story/kushner-discussed-secret-communications-channel-with-russia-10894670</link>
+      <description>Russia's ambassador to the US told his bosses that he and Jared Kushner talked about setting up a secret channel for communication between Donald Trump's transition team and Moscow, according to a report.</description>
+      <pubDate>Sat, 27 May 2017 02:35:00 +0100</pubDate>
+      <guid>http://news.sky.com/story/kushner-discussed-secret-communications-channel-with-russia-10894670</guid>
+      <enclosure url="http://e3.365dm.com/17/05/70x70/aca8fd6d3e8e7c475055436d03dc963c06b205182c79d304502f6b882ec1a20e_3963818.jpg?20170527043709" length="0" type="image/jpeg"/>
+      <media:description type="html">US President Donald Trump and White House senior adviser Jared Kushner take part in a bilateral meeting with Italy&amp;#39;s Prime Minister</media:description>
+      <media:thumbnail url="http://e3.365dm.com/17/05/70x70/aca8fd6d3e8e7c475055436d03dc963c06b205182c79d304502f6b882ec1a20e_3963818.jpg?20170527043709" width="70" height="70"/>
+      <media:content type="image/jpeg" url="http://e3.365dm.com/17/05/70x70/aca8fd6d3e8e7c475055436d03dc963c06b205182c79d304502f6b882ec1a20e_3963818.jpg?20170527043709"/>
     </item>
     <item>
       <title>US spy plane intercepted by Chinese jets</title>
@@ -102,28 +124,6 @@
       <media:description type="html">A resident in a suburb of the capital, Colombo, looks out at the flood waters    </media:description>
       <media:thumbnail url="http://e3.365dm.com/17/05/70x70/2f4cdd0ed52c8361e0d06add12bca4816ed5aaedf9f129f2ea419f71d18bf1a1_3963548.jpg?20170526164909" width="70" height="70"/>
       <media:content type="image/jpeg" url="http://e3.365dm.com/17/05/70x70/2f4cdd0ed52c8361e0d06add12bca4816ed5aaedf9f129f2ea419f71d18bf1a1_3963548.jpg?20170526164909"/>
-    </item>
-    <item>
-      <title>Children among 26 dead in Egypt bus shooting</title>
-      <link>http://news.sky.com/story/egypt-bus-shooting-at-least-26-dead-after-attack-on-coptic-christians-10893885</link>
-      <description>At least 26 people, including children, have been killed by masked gunmen who opened fire on a bus carrying Coptic Christians in Egypt.</description>
-      <pubDate>Fri, 26 May 2017 13:03:00 +0100</pubDate>
-      <guid>http://news.sky.com/story/egypt-bus-shooting-at-least-26-dead-after-attack-on-coptic-christians-10893885</guid>
-      <enclosure url="http://e3.365dm.com/17/05/70x70/f132da1d263446d4c8571600533d5b0f94acfb3f2bf7d77538d1ced175848f6b_3963455.jpg?20170526151104" length="0" type="image/jpeg"/>
-      <media:description type="html">IS-linked militants opened fire on the bus as it travelled to a monastery</media:description>
-      <media:thumbnail url="http://e3.365dm.com/17/05/70x70/f132da1d263446d4c8571600533d5b0f94acfb3f2bf7d77538d1ced175848f6b_3963455.jpg?20170526151104" width="70" height="70"/>
-      <media:content type="image/jpeg" url="http://e3.365dm.com/17/05/70x70/f132da1d263446d4c8571600533d5b0f94acfb3f2bf7d77538d1ced175848f6b_3963455.jpg?20170526151104"/>
-    </item>
-    <item>
-      <title>Mystery as police investigate abandoned SOS</title>
-      <link>http://news.sky.com/story/mystery-as-australian-police-investigate-abandoned-sos-made-from-rocks-10893515</link>
-      <description>Police are trying to solve the mystery of who made an SOS out of rocks in a remote part of Western Australia.</description>
-      <pubDate>Fri, 26 May 2017 08:49:00 +0100</pubDate>
-      <guid>http://news.sky.com/story/mystery-as-australian-police-investigate-abandoned-sos-made-from-rocks-10893515</guid>
-      <enclosure url="http://e3.365dm.com/17/05/70x70/bd910c75418dbc5c008597216a2608c8f5c6aa06cd48470b4602de12e612de6c_3963135.jpg?20170526100856" length="0" type="image/jpeg"/>
-      <media:description type="html">Police are trying to find whoever made the SOS symbol out of rocks</media:description>
-      <media:thumbnail url="http://e3.365dm.com/17/05/70x70/bd910c75418dbc5c008597216a2608c8f5c6aa06cd48470b4602de12e612de6c_3963135.jpg?20170526100856" width="70" height="70"/>
-      <media:content type="image/jpeg" url="http://e3.365dm.com/17/05/70x70/bd910c75418dbc5c008597216a2608c8f5c6aa06cd48470b4602de12e612de6c_3963135.jpg?20170526100856"/>
     </item>
   </channel>
 </rss>

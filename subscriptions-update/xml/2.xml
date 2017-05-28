@@ -11,16 +11,16 @@
             <link>http://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 May 2017 14:12:41 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 May 2017 15:51:07 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[British Airways: Flights cancelled amid IT crash]]></title>
-            <description><![CDATA[All British Airways flights leaving Heathrow and Gatwick are cancelled until 18:00 BST.]]></description>
+            <title><![CDATA[British Airways: All flights cancelled amid IT crash]]></title>
+            <description><![CDATA[All British Airways flights leaving Heathrow and Gatwick on Saturday are cancelled.]]></description>
             <link>http://www.bbc.co.uk/news/uk-40069865</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-40069865</guid>
-            <pubDate>Sat, 27 May 2017 13:40:07 GMT</pubDate>
+            <pubDate>Sat, 27 May 2017 15:49:40 GMT</pubDate>
             <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/9992/production/_96241393_michaelsingh.jpg"/>
         </item>
         <item>
@@ -28,16 +28,24 @@
             <description><![CDATA[The national terrorism threat level comes down to severe, meaning an attack is likely, not imminent.]]></description>
             <link>http://www.bbc.co.uk/news/uk-40069959</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-40069959</guid>
-            <pubDate>Sat, 27 May 2017 13:25:34 GMT</pubDate>
+            <pubDate>Sat, 27 May 2017 14:28:30 GMT</pubDate>
             <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/1423D/production/_96239428_moss_side_2_reu_crop.jpg"/>
         </item>
         <item>
             <title><![CDATA[IRA bombing campaign 'wrong' - Jeremy Corbyn]]></title>
-            <description><![CDATA[Jeremy Corbyn seeks to distance himself from the IRA's actions in the Troubles, as the Tories step up criticism.]]></description>
+            <description><![CDATA[Jeremy Corbyn seeks to distance himself from IRA's actions in the Troubles, as Tories step up criticism.]]></description>
             <link>http://www.bbc.co.uk/news/election-2017-40069744</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/news/election-2017-40069744</guid>
             <pubDate>Sat, 27 May 2017 13:49:21 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/55F4/production/_96240022_e7a67f5f-d6a9-4d92-9e4b-fc32e7cf8cf2.jpg"/>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/F374/production/_96242326_corb.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[G7 talks: Trump isolated over Paris climate change deal]]></title>
+            <description><![CDATA[Germany called the climate change talks "very unsatisfactory", describing them as "six against one".]]></description>
+            <link>http://www.bbc.co.uk/news/world-europe-40069636</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-40069636</guid>
+            <pubDate>Sat, 27 May 2017 15:50:10 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/162A9/production/_96239709_mediaitem96239708.jpg"/>
         </item>
         <item>
             <title><![CDATA[Chris Cornell: Friends and family at Soundgarden singer's funeral]]></title>
@@ -46,14 +54,6 @@
             <guid isPermaLink="true">http://www.bbc.co.uk/news/world-40068749</guid>
             <pubDate>Sat, 27 May 2017 07:30:45 GMT</pubDate>
             <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/12BEF/production/_96238767_mediaitem96238766.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Kushner 'discussed secret line to Moscow' - US media reports]]></title>
-            <description><![CDATA[Donald Trump's son-in-law reportedly sought to use Russian facilities to reach Moscow officials.]]></description>
-            <link>http://www.bbc.co.uk/news/world-us-canada-40068137</link>
-            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-40068137</guid>
-            <pubDate>Sat, 27 May 2017 09:51:58 GMT</pubDate>
-            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/17C3/production/_96238060_af74bc63-c558-4b12-8f50-6d3c8181cfc1.jpg"/>
         </item>
         <item>
             <title><![CDATA['No regrets' over bomb photo use - editor]]></title>
@@ -240,8 +240,8 @@
             <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/A48C/production/_96242124_ham9_reu.jpg"/>
         </item>
         <item>
-            <title><![CDATA[Marco Silva: Watford appoint former Hull boss as new manager]]></title>
-            <description><![CDATA[Former Hull boss Marco Silva is named as the new manager of Watford, succeeding Walter Mazzarri at Vicarage Road.]]></description>
+            <title><![CDATA[Marco Silva: Watford appoint former Hull boss as new head coach]]></title>
+            <description><![CDATA[Former Hull boss Marco Silva is named as the new head coach of Watford, succeeding Walter Mazzarri at Vicarage Road.]]></description>
             <link>http://www.bbc.co.uk/sport/football/40066015</link>
             <guid isPermaLink="true">http://www.bbc.co.uk/sport/football/40066015</guid>
             <pubDate>Sat, 27 May 2017 13:11:28 GMT</pubDate>

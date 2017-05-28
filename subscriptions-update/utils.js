@@ -18,7 +18,7 @@ class Utils {
             channel.image = meta.image.url;
 
             let items = [];
-            arr.forEach((entry, idx, array) => {
+            arr.forEach((entry) => {
                 let obj = {};
                 obj.title = entry.title;
                 obj.description = entry.description;
@@ -32,7 +32,7 @@ class Utils {
             return json;
         }
         catch(err) {
-            console.error('Transform error; '+err)
+            console.error('Transform error; '+err);
             throw Error('Error on transform to json. Reason: ', err);
         }
     }

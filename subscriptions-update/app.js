@@ -53,7 +53,7 @@ function doUpdate() {
     Subscription.find()
     .exec()
     .then(doc => {
-        doc.forEach((item, idx, array) => {
+        doc.forEach((item) => {
             console.log('Found subscription: Id %d Url %s', item._id, item.url);
             rssFeeder.promisedGet(item.url, makePath('xml', item._id, 'xml'))
             .then(() => {
@@ -70,12 +70,12 @@ function doUpdate() {
                     })
                     .catch(err => {
                         console.error('**** Update Error; Reason '+err);
-                    })
+                    });
                 })
                 .catch(function(err) {
                     console.error('Error on Parse to json; fid '+item._id+' Reason: ', err);
                     throw Error('Error on Parse to json; fid '+item._id+' Reason: ', err);
-                })
+                });
             })
             .catch(function(err) {
                 console.error('Error on Get URL; Url '+item.url+' Reason: ', err);

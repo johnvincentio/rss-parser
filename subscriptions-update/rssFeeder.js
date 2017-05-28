@@ -39,7 +39,7 @@ class RssFeeder {
         const json = {
             meta: '',
             items: []
-        }
+        };
         return new Promise(function(resolve, reject) {
 //            console.log(">>> promisedJson; xmlFile :" + xmlFile + ":");
             fs.createReadStream(xmlFile)
@@ -76,7 +76,7 @@ class RssFeeder {
         console.log(">>> get; feed :" + feed + ":");
         request.get(feed)
         .on('error', function(error) {
-            console.error("ERROR in get; error " + err);
+            console.error("ERROR in get; error " + error);
         })
         .on('response', function(res) {
             console.log(">>> on response");
@@ -98,7 +98,7 @@ class RssFeeder {
         const json = {
             meta: '',
             items: []
-        }
+        };
         fs.createReadStream(xmlFile)
         .on('error', function (error) {
             console.error(error);
